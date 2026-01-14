@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia de Coimbra · Ofício Atlântico</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header / Navegação -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="imagens/logo.jpg" alt="Logo Barbearia de Coimbra" class="logo-img">
+                <span>Barbearia de Coimbra</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Casa</a></li>
+                <li><a href="#servicos">Carta</a></li>
+                <li><a href="#galeria">Atelier</a></li>
+                <li><a href="#agendamento">Reserva</a></li>
+                <li><a href="#contato">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Barbearia de Coimbra</h1>
+            <p class="tagline">Corte atlântico, precisão lusa</p>
+            <p class="hero-description">No coração da Baixa, unimos o ofício clássico ao desenho contemporâneo para um ritual de cuidado sem pressa.</p>
+            <a href="#agendamento" class="btn btn-primary">Reservar agora</a>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2 class="section-title">A Casa</h2>
+            <div class="sobre-content">
+                <div class="sobre-image">
+                    <img src="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Barbeiro fazendo corte na Barbearia de Coimbra">
+                </div>
+                <div class="sobre-text">
+                    <h3>Tradição beirã, visão cosmopolita</h3>
+                    <p>Nascemos em Coimbra para celebrar o ritual de barbear com calma, conversa e técnica apurada. Cada cliente é recebido como um convidado e sai com um corte que respeita a sua história.</p>
+                    <p>Do pente clássico ao acabamento de navalha, combinamos a mão experiente com tendências internacionais para um resultado sob medida.</p>
+                    <div class="manifesto">
+                        <span>Ofício</span>
+                        <span>Precisão</span>
+                        <span>Hospitalidade</span>
+                        <span>Materiais nobres</span>
+                    </div>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number">12+</span>
+                            <span class="stat-label">Anos de ofício</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">7200+</span>
+                            <span class="stat-label">Clientes fidelizados</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5</span>
+                            <span class="stat-label">Barbeiros residentes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="servicos">
+        <div class="container">
+            <h2 class="section-title">Carta de Serviços</h2>
+            <div class="servicos-grid">
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Corte Clássico de Coimbra</h3>
+                    <p>Linha limpa, contornos marcados e finalização com tesoura de precisão.</p>
+                    <span class="preco">€ 24</span>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-scissors"></i>
+                    </div>
+                    <h3>Fade Atlântico</h3>
+                    <p>Degradê suave inspirado nas linhas do Mondego, com styling fosco.</p>
+                    <span class="preco">€ 28</span>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Ritual de Navalha</h3>
+                    <p>Toalha quente, óleo de eucalipto e navalha para barba impecável.</p>
+                    <span class="preco">€ 22</span>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Combo Baixa</h3>
+                    <p>Corte + barba + styling com tónico artesanal e finalização a vapor.</p>
+                    <span class="preco">€ 44</span>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h3>Primeiro Corte</h3>
+                    <p>Experiência tranquila para os mais novos, com brinde de lembrança.</p>
+                    <span class="preco">€ 18</span>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-spray-can"></i>
+                    </div>
+                    <h3>Camuflagem Lusitana</h3>
+                    <p>Disfarce de brancos com pigmentos frios e acabamento natural.</p>
+                    <span class="preco">€ 26</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="galeria" class="galeria">
+        <div class="container">
+            <h2 class="section-title">Atelier</h2>
+            <div class="galeria-grid">
+                <div class="galeria-item">
+                    <img src="https://images.pexels.com/photos/897262/pexels-photo-897262.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Barbeiro fazendo corte degradê">
+                </div>
+                <div class="galeria-item">
+                    <img src="https://images.pexels.com/photos/1570807/pexels-photo-1570807.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Detalhe de barba com navalha">
+                </div>
+                <div class="galeria-item">
+                    <img src="https://images.pexels.com/photos/3998429/pexels-photo-3998429.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Styling com tesoura e pente">
+                </div>
+                <div class="galeria-item">
+                    <img src="https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Fade atlântico em detalhe">
+                </div>
+                <div class="galeria-item">
+                    <img src="https://images.pexels.com/photos/3993467/pexels-photo-3993467.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Barba preparada e alinhada">
+                </div>
+                <div class="galeria-item">
+                    <img src="https://images.pexels.com/photos/1319461/pexels-photo-1319461.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Interior da barbearia">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agendamento -->
+    <section id="agendamento" class="agendamento">
+        <div class="container">
+            <h2 class="section-title">Reserve o seu ritual</h2>
+            <div class="agendamento-wrapper">
+                <div class="agendamento-info">
+                    <h3>Por que reservar connosco</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Atendimento pontual e personalizado</li>
+                        <li><i class="fas fa-check"></i> Escolha o barbeiro e o mood da cadeira</li>
+                        <li><i class="fas fa-check"></i> Tónicos e essências exclusivos</li>
+                        <li><i class="fas fa-check"></i> Confirmação imediata via WhatsApp</li>
+                    </ul>
+                    <div class="horario-funcionamento">
+                        <h4><i class="fas fa-clock"></i> Horário de Funcionamento</h4>
+                        <p>Segunda a Sexta: 09:00 - 20:00</p>
+                        <p>Sábado: 09:00 - 18:00</p>
+                        <p>Domingo: Fechado para descanso e estudo</p>
+                    </div>
+                </div>
+                <form id="form-agendamento" class="form-agendamento">
+                    <div class="form-group">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Telefone/WhatsApp</label>
+                        <input type="tel" id="telefone" name="telefone" required placeholder="(00) 00000-0000">
+                    </div>
+                    <div class="form-group">
+                        <label for="servico">Serviço</label>
+                        <select id="servico" name="servico" required>
+                            <option value="">Selecione um serviço</option>
+                            <option value="corte-classico">Corte Clássico de Coimbra - € 24</option>
+                            <option value="fade-atlantico">Fade Atlântico - € 28</option>
+                            <option value="ritual-navalha">Ritual de Navalha - € 22</option>
+                            <option value="combo-baixa">Combo Baixa - € 44</option>
+                            <option value="primeiro-corte">Primeiro Corte - € 18</option>
+                            <option value="camuflagem">Camuflagem Lusitana - € 26</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="barbeiro">Barbeiro</label>
+                        <select id="barbeiro" name="barbeiro" required>
+                            <option value="">Selecione um barbeiro</option>
+                            <option value="miguel">Miguel</option>
+                            <option value="dinis">Dinis</option>
+                            <option value="manuel">Manuel</option>
+                            <option value="joao">João</option>
+                            <option value="ines">Inês</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="data">Data</label>
+                            <input type="date" id="data" name="data" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="horario">Horário</label>
+                            <select id="horario" name="horario" required>
+                                <option value="">Selecione</option>
+                                <option value="09:00">09:00</option>
+                                <option value="09:30">09:30</option>
+                                <option value="10:00">10:00</option>
+                                <option value="10:30">10:30</option>
+                                <option value="11:00">11:00</option>
+                                <option value="11:30">11:30</option>
+                                <option value="14:00">14:00</option>
+                                <option value="14:30">14:30</option>
+                                <option value="15:00">15:00</option>
+                                <option value="15:30">15:30</option>
+                                <option value="16:00">16:00</option>
+                                <option value="16:30">16:30</option>
+                                <option value="17:00">17:00</option>
+                                <option value="17:30">17:30</option>
+                                <option value="18:00">18:00</option>
+                                <option value="18:30">18:30</option>
+                                <option value="19:00">19:00</option>
+                                <option value="19:30">19:30</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">
+                        <i class="fab fa-whatsapp"></i> Confirmar Agendamento
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="depoimentos">
+        <div class="container">
+            <h2 class="section-title">O que dizem os de casa</h2>
+            <div class="depoimentos-grid">
+                <div class="depoimento-card">
+                    <div class="depoimento-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Corte preciso, conversa boa e um cuidado raro. Sinto que pertenço."</p>
+                    <span class="depoimento-autor">- Tomás Costa</span>
+                </div>
+                <div class="depoimento-card">
+                    <div class="depoimento-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Ambiente luminoso, música certa e acabamento impecável. Voltarei sempre."</p>
+                    <span class="depoimento-autor">- Filipe Andrade</span>
+                </div>
+                <div class="depoimento-card">
+                    <div class="depoimento-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Um ritual completo: toalha quente, essências portuguesas e um corte que dura."</p>
+                    <span class="depoimento-autor">- Catarina Matos</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2 class="section-title">Contacto & Localização</h2>
+            <div class="contato-wrapper">
+                <div class="contato-info">
+                    <div class="contato-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>R. Carmo 90<br>3000-098 Coimbra</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>+351 920 316 956</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>+351 920 316 956</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>E-mail</h4>
+                            <p>ola@barbeariadecoimbra.pt</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/barbeariadecoimbra97/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/351920316956" target="_blank" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="mapa">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3056.5!2d-8.4322553!3d40.2116718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd22f9c59794f6f5%3A0xcef97b54ff35d521!2sBarbearia%20De%20Coimbra!5e0!3m2!1spt-PT!2spt!4v1705200000000!5m2!1spt-PT!2spt" 
+                        width="100%" 
+                        height="350" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="imagens/logo.jpg" alt="Logo Barbearia de Coimbra" class="logo-img">
+                    <span>Barbearia de Coimbra</span>
+                </div>
+                <p>&copy; 2026 Barbearia de Coimbra. Todos os direitos reservados.</p>
+                <p>Feito com <i class="fas fa-heart"></i> para quem valoriza o ofício</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/351920316956" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
